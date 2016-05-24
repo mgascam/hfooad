@@ -43,6 +43,8 @@ var Guitar = function (opts) {
     obj.getTopWood = function () {
         return topWood;
     };
+
+    return obj;
 };
 
 module.exports = Guitar;
